@@ -55,7 +55,8 @@ function dailyReport(orders) {
 
 console.log(dailyReport(orders));
 // 18
-The createOrderNumber function accepts a starting number.
- It creates a variable called orderNumber and returns another function.
-  That inner function remembers the value of orderNumber even after the outer function finishes.
-   Each time I call it, it returns the current number with ORD- in front and increases the number by one. This is an example of a closure because the inner function remembers a variable from its outer function.
+// The createOrderNumber function accepts a starting number.
+//  It creates a variable called orderNumber and returns another function.
+//   That inner function remembers the value of orderNumber even after the outer function finishes.
+//    Each time I call it, it returns the current number with ORD- in front and increases the number by one.
+//     This is an example of a closure because the inner function remembers a variable from its outer function.
