@@ -59,4 +59,4 @@ for (const order of orders) {
   }
 }
 
-console.log(paidCustomers);
+console.log(paidCustomers); 
